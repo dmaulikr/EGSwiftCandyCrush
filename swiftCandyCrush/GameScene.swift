@@ -131,7 +131,7 @@ class GameScene: SKScene {
             } else if row > swipeFromRow! {         // swipe up
                 vertDelta = 1
             }
-            
+             
             // 4
             if horzDelta != 0 || vertDelta != 0 {
                 trySwapHorizontal(horzDelta, vertical: vertDelta)
