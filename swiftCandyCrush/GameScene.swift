@@ -141,7 +141,7 @@ class GameScene: SKScene {
             }
         }
     }
-    
+     
     func trySwapHorizontal(horzDelta: Int, vertical vertDelta: Int) {
         // 1
         let toColumn = swipeFromColumn! + horzDelta
